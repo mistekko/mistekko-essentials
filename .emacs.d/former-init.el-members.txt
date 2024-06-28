@@ -1,0 +1,19 @@
+;; exwm configuration stuff
+;; (require 'exwm)
+;; (require 'exwm-config)
+;; (exwm-enable)
+
+;; Make buffer name more meaningful
+;; (add-hook 'exwm-update-class-hook
+;;           (lambda ()
+;;           (exwm-workspace-rename-buffer exwm-class-name)))
+;;-----------------------------------------------------------
+
+;; make the background pretty
+;; don't use a background colour in the terminal... you idiot!
+;; (defun on-after-init ()
+;;   (if (display-graphic-p (selected-frame))
+;;       (funcall (lambda () (load-theme 'cyberpunk)
+;; 	         (set-background-color "#1f252f")))))
+
+;; (add-hook 'window-setup-hook 'on-after-init)

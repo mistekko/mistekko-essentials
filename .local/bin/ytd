@@ -1,0 +1,5 @@
+#! /usr/bin/bash
+
+mkdir -p ~/Videos/yt-dlp
+cd ~/Videos/yt-dlp
+yt-dlp "$@"

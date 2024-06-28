@@ -1,0 +1,161 @@
+;; setup stuff
+
+;;------------------------------------------------------------------------------------------
+;; set up package manager
+(require 'package)
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+(add-to-list 'package-archives '("gnu"   . "https://elpa.gnu.org/packages/") t)
+(package-initialize)
+
+;; set up unicode
+(prefer-coding-system       'utf-8)
+(set-default-coding-systems 'utf-8)
+(set-terminal-coding-system 'utf-8)
+(set-keyboard-coding-system 'utf-8)
+(setq default-buffer-file-coding-system 'utf-8)                      
+(setq x-select-request-type '(UTF8_STRING COMPOUND_TEXT TEXT STRING))
+
+;; I don't remember what this line does... find out sometime, won't you?
+(add-to-list 'load-path "~/.emacs.d/lib/gpastel/") 
+
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(ansi-color-faces-vector
+   [fault default default italic underline success warning error])
+ '(ansi-color-names-vector
+   ["black" "#d55e00" "#009e73" "#f8ec59" "#0072b2" "#cc79a7" "#56b4e9" "white"])
+ '(column-number mode)
+ '(custom-safe-themes
+   '("355c692a1ac01494b96a88f127477bdb52325c00380a57648a6f4af38b528454" default))
+ '(erc-modules
+   '(autojoin button completion fill irccontrols list match menu move-to-prompt netsplit networks noncommands notifications readonly ring smiley stamp spelling track))
+ '(indent-tabs-mode t)
+ '(initial-scratch-message "A new text file:")
+ '(ispell-dictionary "british")
+ '(menu-bar-mode nil)
+ '(package-selected-packages
+   '(pdf-tools auctex xkcd package+ cdlatex slime-volleyball slime mpv gpastel exwm emms w3m markdown-mode multiple-cursors ## cmake-mode))
+ '(ring-bell-function 'ignore)
+ '(scroll-bar-mode nil)
+ '(smtpmail-smtp-server "smtp.gmail.com")
+ '(smtpmail-smtp-service 25)
+ '(tool-bar-mode nil))
+
+(set-frame-parameter nil 'alpha-background 80)
+(add-to-list 'default-frame-alist '(alpha-background . 80))
+
+;; ------------------------------------------------------------------------------------------
+
+;; package setup
+
+;; ------------------------------------------------------------------------------------------
+;; maps for multiple cursors
+(require 'multiple-cursors)
+(global-set-key (kbd "s->") 'mc/mark-next-like-this)
+(global-set-key (kbd "s-<") 'mc/mark-previous-like-this)
+(global-set-key (kbd "C-c s->") 'mc/mark-all-like-this)
+(global-set-key (kbd "C-c s-=") 'mc/edit-lines)	      
+
+;; code-block hiding
+(global-set-key (kbd "s-h") 'hs-hide-block)
+(global-set-key (kbd "s-s") 'hs-show-block)
+(add-hook 'jav-mode-hook 'hs-minor-mode) 
+
+;;LaTeX stsuff
+(add-hook 'LaTeX-mode-hook (load "~/.emacs.d/TeX-init/init.el")) 
+	  
+(defun m/init-math ()
+  (interactive)
+  (load "~/.emacs.d/TeX-init/init.el")
+  (insert-file-contents "~/Documents/math/template/mine/test.tex" nil nil nil 83))
+
+;; IRC stuff
+;;IRC identity
+(setq
+ erc-nick "mistekko"     ; Our IRC nick
+ erc-user-full-name "no name here. sorry!") ; Our /whois name
+
+;; Connect to rizon
+(defun rizon ()
+  "Connect to the rizon IRC server on port 6667"
+  (interactive)
+  (erc :server "irc.rizon.net"
+       :port   "6667"))
+
+;; ------------------------------------------------------------------------------------------
+
+;; personal functions and such
+
+;; ------------------------------------------------------------------------------------------
+;; pretty symbol setup
+(defun m/load-pretty-symbols ()
+  (interactive)
+  "Set prettify symbols alist."
+  (setq prettify-symbols-alist '(("*t" . ?·)
+				 ("!=" . ?≠)
+				 ("->" . ?→)
+				 ("!not" . ?¬)
+				 ("||" . ?∨)
+				 ("<=>" . ?⇔)
+				 ("intS" . ?∫)
+				 ("-^" . ?∴)
+				 ("^-" . ?∵)
+				 ("^2" . ?²)
+				 ("+^" . ?⁺) 
+			  	 ("sqrt" . ?√)))
+  (prettify-symbols-mode)) 
+
+(add-hook 'text-mode-hook 'm/load-pretty-symbols)
+(global-prettify-symbols-mode 1)
+
+;; code for moe useful small-increment scrolling
+(defun scroll-down-lines ()
+  "Scroll num lines"
+  (interactive)
+  (dotimes (i 4) (scroll-down-line)))
+(defun scroll-up-lines ()
+  "Scroll num lines"
+  (interactive)
+  (dotimes (i 4) (scroll-up-line)))
+
+;; ------------------------------------------------------------------------------------------
+
+;; keymaps
+
+;; ------------------------------------------------------------------------------------------
+;; extra scrilling maps. It's okay to use the more inconvenient keys.
+(global-set-key (kbd "S-<down>") 'scroll-up-line)
+(global-set-key (kbd "S-<up>") 'scroll-down-line)
+(global-set-key (kbd "C-S-<down>") 'scroll-up-lines)
+(global-set-key (kbd "C-S-<up>") 'scroll-down-lines)
+
+;; keymaps for using 'h' for backwards character removal shortcuts and 'z' for h's old duties
+(global-unset-key (kbd "C-z"))
+
+;; map backspace (help) to C-Z
+(define-key key-translation-map [?\C-z] [?\C-h])
+
+;; map (mark-paragraph) to M-n
+(define-key key-translation-map [?\M-n] [?\M-h])
+
+;; map (backwards-delete-char) to C-h
+(define-key key-translation-map [?\C-h] [?\C-?])
+
+;; map (backwards-kill-word) to M-h
+(define-key key-translation-map [?\M-h] [?\M-\d])
+
+;; org-mode maps
+(global-set-key (kbd "C-c l") #'org-store-link)
+(global-set-key (kbd "C-c a") #'org-agenda)
+(global-set-key (kbd "C-c c") #'org-capture)
+
+;; ------------------------------------------------------------------------------------------
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

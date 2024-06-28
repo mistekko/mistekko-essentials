@@ -1,0 +1,19 @@
+#! /usr/bin/bash
+
+echo "checking whether an emacs server is running..."
+emacsclient -a false -e 't'
+return_code=$?
+echo "Return code: $return_code"
+
+if [[ return_code -ne 0 ]]; then
+    echo "Connection failed; creating new server..."
+    emacs --daemon
+    emacsclient --reuse-frame $1 &
+    # following line lies if emacs server fails to create or emacsclient fails to connect
+    echo "Sucessfully connected to newly created emacs server"
+
+else
+    emacsclient --reuse-frame $1 &
+    echo "Sucessfully connected to previously running emacs server"
+fi
+

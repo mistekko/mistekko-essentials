@@ -1,0 +1,57 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '(("www.khanacademy.org"
+  [url-cookie "gae_b_id" "!$dMC7pkR1C1RA3aJEIEqAq0qEteEI1Si1uB5VvdJTKrw.~sdz4er~1$a2FpZF85MjkyMjk0NTY3ODU3NTIxMTcyMTQ1NzE3" "Sat May 24 04:56:50 2025 GMT" "/" "www.khanacademy.org" nil])
+ ("www.sweetwater.com"
+  [url-cookie "_pxhd" "" "Fri, 30 May 2025 04:34:50 GMT" "/" "www.sweetwater.com" nil])
+ ("myanimelist.net"
+  [url-cookie "MALHLOGSESSID" "a4d4b40c37e7a39b8637eb775ff0611f" "Wed Dec 06 01:49:43 2028 GMT" "/" "myanimelist.net" nil]))
+)
+(setq url-cookie-secure-storage
+ '(("myanimelist.net"
+  [url-cookie "MALSESSIONID" "il7foghg21osjhsaq3vrtll460" "Mon Dec 05 01:49:43 2033 GMT" "/" "myanimelist.net" t])
+ ("reddit.com"
+  [url-cookie "token_v2" "eyJhbGciOiJSUzI1NiIsImtpZCI6IlNIQTI1NjpzS3dsMnlsV0VtMjVmcXhwTU40cWY4MXE2OWFFdWFyMnpLMUdhVGxjdWNZIiwidHlwIjoiSldUIn0.eyJzdWIiOiJsb2lkIiwiZXhwIjoxNzE3MjEyMDA3LjAzMzM4LCJpYXQiOjE3MTcxMjU2MDcuMDMzMzgsImp0aSI6ImxrODQwaEllM3NJZ2RYY09NVWFkNE5HQlJsaUpVdyIsImNpZCI6IjBSLVdBTWh1b28tTXlRIiwibGlkIjoidDJfMTFoZnBxajI5NiIsImxjYSI6MTcxNzEyNTYwNzAzMywic2NwIjoiZUp4a2tkR090REFJaGQtbDF6N0JfeXBfTmh0c2NZYXNMUWFvazNuN0RWb2NrNzA3Y0w0aUhQOG5LSXFGTEUydUJLR2tLV0VGV3RPVU5pTHY1OHk5T1pFRlN5RlRSODQzeXdva2FVcFBVbU41cHlsUndXWmtMbGZhc1VLREI2WXBWUzZaMjBLUFM1dlEzSTFGejA2TXFseFdIdFRZbzNKcGJHTUsyeFBqemNacVF5cXV5NmxNWUZrb244V0xmdnlHLXRZLWY3YmZoSFl3cktnS0RfVE91Rnh3WV9IREZIYl9ucHIwYkYyd3FMM1hnOVEtMS1OMjdiTm1vZG01X1Z6UHZ6YVNjVG1HNWlmWXY3dC1DUjE0NUhtWlVRY3dZZzBfeXJBajZfQ3ZPb0RLQlFXTUpZaFBJNUFybDJfX0pkaXVUZjhhdHlkLS1HYkVUV180clJtbzV4TEVvVV9qNnpjQUFQX19YRF9lNHciLCJmbG8iOjF9.l8aVwz6eNusg-7Wgq6zF7O-UKXH8OZrnL0lKT-XsI7A1Bc_r4OxAyvDMYIhfdG7XHuvO-Niak53E1el7tYcn1ODPaRXRoRGMESALh_7BklLjGt_y5x_lffqPZH_S5yz3hDiJF_1dzM71zUJ7zbKFse-H32N_kYgSYDrUbX06JpPjfEq0rlzGiTdvQrDVZmzOe2850DhEyznsC2hWrViJKx8ylUJHFytSNRGCi3OaVwbH4ZHI3ldySG-Oiw-dcuoQGlj7DTIagnck2YiRdhmFFgHIeGIgPLpVjcB-yeMXzsNX6hG7cGpzSPyHfpzborrqCUra9K9Kp2rhEI5AJl06yg" "Sat, 01 Jun 2024 03:20:07 GMT" "/" "reddit.com" t]
+  [url-cookie "edgebucket" "zGG7axYRwnJHxBrCCE" "Sun May 31 03:20:05 2026 GMT" "/" "reddit.com" t])
+ (".reddit.com"
+  [url-cookie "csv" "2" "Sun May 31 03:20:07 2026 GMT" "/" ".reddit.com" t]
+  [url-cookie "loid" "0000000011hfpqj296.2.1717125607033.Z0FBQUFBQm1XVUhuRG16LVN3SHptUnhWdjI1RXpFR2x6ckEtMmF1YTZEMUdZQzdMRHRzUXV3cmRBQ2liNkZsbVlyXzBEcHh6b3IyZXlib3BEZDVDcFAya1ZhVWZ6T0lnUGFGSE9aTXE3R2lwZ0tKTy1PY2NCRUEwelpYN21CNXV2STZ6RmhYUDNMa3E" "Sun, 31 May 2026 03:20:07 GMT" "/" ".reddit.com" t])
+ (".sweetwater.com"
+  [url-cookie "SSRT" "6AFYZgQBAA" "Fri, 30-May-2025 04:34:48 GMT" "/" ".sweetwater.com" t]
+  [url-cookie "SSID" "CQAgah0AAAAAAADoAVhm5Y-BG-gBWGYBAAAAAAAAAAAA6AFYZgCwtg" "Fri, 30-May-2025 04:34:48 GMT" "/" ".sweetwater.com" t])
+ (".phys.libretexts.org"
+  [url-cookie "dekisession" "NmNiY2Q4YTEtYjM1MC00MDEyLWJlMTctZGNkYjNjNmQ0MWI1fDIwMjQtMDUtMTdUMDI6MDY6NDE=" "Wed, 17-May-2034 02:06:41 GMT" "/" ".phys.libretexts.org" t])
+ (".wikipedia.org"
+  [url-cookie "WMF-Last-Access-Global" "30-May-2024" "Mon, 01 Jul 2024 12:00:00 GMT" "/" ".wikipedia.org" t])
+ ("en.wikipedia.org"
+  [url-cookie "WMF-Last-Access" "30-May-2024" "Mon, 01 Jul 2024 12:00:00 GMT" "/" "en.wikipedia.org" t])
+ ("www.songsterr.com"
+  [url-cookie "LastRef" "d3d3LnNvbmdzdGVyci5jb20%3D" "Sat Sep 13 13:56:32 3023 GMT" "/" "www.songsterr.com" t]
+  [url-cookie "exp" "%7B%22uuid%22%3A%2224193a4000024278a44000-036dee8251eee7-75375300-0644083e9179b-244ed7860002455829a000%22%2C%22active%22%3A%7B%7D%2C%22pending%22%3A%7B%22pa_demo_dialogue%22%3A%22off%22%2C%22playthrough_v2%22%3A%22off%22%2C%22wo_question_pp%22%3A%22on%22%2C%22autoswitch_sel_bar%22%3A%22on%22%2C%22song_map%22%3A%22on%22%7D%7D" "Sat Sep 13 13:56:32 3023 GMT" "/" "www.songsterr.com" t])
+ (".math.libretexts.org"
+  [url-cookie "dekisession" "MGM3NGFiZjQtMjg1ZC00NTFmLTgyNzYtMGU3YjI0MDllNDYxfDIwMjQtMDUtMTNUMjM6Mzk6MTI=" "Sat, 13-May-2034 23:39:12 GMT" "/" ".math.libretexts.org" t])
+ (".stackoverflow.com"
+  [url-cookie "prov" "244f42e2-1775-448a-8e0a-6b0bf2da7732" "Fri, 30 May 2025 21:42:34 GMT" "/" ".stackoverflow.com" t])
+ ("archlinux.org"
+  [url-cookie "csrftoken" "6p3x0yn3wMzVQfqSOjzGeoVj861CUwdW" "Wed May 14 20:34:49 2025 GMT" "/" "archlinux.org" t])
+ ("sourceforge.net"
+  [url-cookie "VISITOR" "af8dcd64-120c-41b2-8580-5a98da805f77" "Sat May 13 20:41:27 2034 GMT" "/" "sourceforge.net" t]
+  [url-cookie "sourceforge" "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJic1oiOiJjLW1jI0Y7Y0BZNUprVzN6KVpULWJrTlglQlAmTEJOfiM9eTE5JWleT35qWnVCV1k0RiElJE13R2VnTjhhdHtoUjQjNUU7I2k-JjV6Vz97ez9uTUhtam5UTFNQKXAqMSpGd355RGd8SDhTeTNASUZXWUxTbVNzVzZIa01rNHZvTVIxP3BEVG1lMXw_YF89O3M_YHpLTiFjTDdxaj5hQWJQWFRvX3ZxaTApPV5uQHBfam1QQ0FyWSZfTzlwTkVCRytOVjlicFFXdWtWWkkhdVl4OzBxXkIkfEBgNFg9SjMjS0clXnpQZCozdUpMX1ZhbjIjQlklXyU5OFleVXBMLV9IRSgrTnk3PjZMUGEzSGRJWSlaWC07WC0-ViFjWHUifQ.S5RC0DY2hY0G7SK879x1tsshyLAT5FaBpTqQwVyN_zw" "Tue, 19-Jan-2038 03:14:07 GMT" "/" "sourceforge.net" t])
+ (".superuser.com"
+  [url-cookie "prov" "169686a0-d9bd-4c8d-a6ef-feeeb3107285" "Thu, 15 May 2025 23:30:52 GMT" "/" ".superuser.com" t])
+ (".stackexchange.com"
+  [url-cookie "prov" "3df7d51f-a46f-4e3e-bfc3-06cfafea935f" "Fri, 30 May 2025 21:51:25 GMT" "/" ".stackexchange.com" t])
+ ("github.com"
+  [url-cookie "logged_in" "no" "Fri, 04 Oct 2024 22:52:20 GMT" "/" "github.com" t]
+  [url-cookie "_octo" "GH1.1.2021633437.1696459940" "Fri, 04 Oct 2024 22:52:20 GMT" "/" "github.com" t]))
+)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; coding: utf-8-emacs-unix
+;; End:
+
+;;; cookies ends here

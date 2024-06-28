@@ -1,0 +1,42 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/mistekko/" . "Downloads/")
+ ("/home/mistekko/Projects/" . "manga-reader/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/mistekko/Documents/tmp/"
+ "/home/mistekko/Projects/manga-reader/"
+ "/home/mistekko/"
+ "/home/mistekko/.dontmodify/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "fingerprint.txt"
+ "README.md"
+ ".emacs"
+ "start.bat"
+ "todo.txt"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/mistekko/Documents/" (25885 54793 454839 416000) "ruth.txt~" "mine/" "lists/" "math/" "whyuchicago.txt~" "sites/" "mine_old/" "../" "spain.txt~" "THEstory.txt" "ruth.txt" "MuseScore4/" "spotify_password.txt" "Eagle/" "Wi-fi should be free/" "./" "software_list.txt" "anothersotry.txt~" "lyrics.txt" "howareyounarrowingyourfocusoncolleges.txt" "movingaround.txt~" "art/" "bigcity.txt" "longload.xcf" "Books/" "bulgaria.bulgaria" "Surge XT/")
+
+ ("/home/mistekko/" (25885 64288 48721 421000) "Videos/" ".lesshst" "cp/" ".ICEauthority" "Projects/" "ブラックビスケッツ ⧸ タイミング 〜Timing〜　Covered by Klang Ruler [yewR9Tj4WfI].webm" "サカナクション ⧸ ミュージック　Covered by Klang Ruler & mashoe' [Vv96R-HQWZM].webm" "鈴木雅之＆菊池桃子 ⧸ 渋谷で5時　Covered by Klang Ruler [kFEaNeg5sYM].webm" ".Xclients" ".mono/" "ちょっと待って(demo) [lHzvc7-ucO8].webm" "mpv-shot0011.jpg" ".gtkrc-2.0" ".yarn/" ".conda/" "#%2Amail%2A#givgql#" "【オリジナル楽曲】粛聖!! ロリ神レクイエム☆ ⧸ しぐれうい（9さい） [Ci_zad39Uhw].webm" "山下達郎 ⧸ クリスマス・イブ  Covered by Klang Ruler [Zhg8-b4IaYo].webm" ".emacs~" ".local/" "尾崎豊 ⧸ OH MY LITTLE GIRL Covered by Klang Ruler & sooogood! [FpJaJ4A3q0k].webm" ".emacs.d/" "くるり ⧸ 琥珀色の街、上海蟹の朝 Covered by Klang Ruler & kojikoji [ouB8gXkdnnQ].webm" "mpv-shot0002.jpg" "はっぴいえんど ⧸ 風をあつめて　Covered by Klang Ruler [q0SJmhXlfj8].webm" ".profile" "[2017.11.29] Chito (CV. Inori Minase), Yuuri (CV. Yurika Kubo) - More One Night.zip" ".config/" "mpv-shot0001.jpg" "Polyphia - Playing God (Official Music Video) [Z5NoQg8LdDk].webm" "Cracking WPS with Reaver [34378644].mp4" ".hydrogen/" ".wine/" ".java/" "mpv-shot0008.jpg" "Speed Racer 92008) [1080p]/" "Documents/" ".emacs" "Downloads/" "The Anthem [zil6EkTt-kI].webm" ".xsession-errors.old" "mpv-shot0023.jpg" "tofubeats⧸RIVER (Klang Ruler×kojikoji) [gX6TrHWKKZQ].webm" ".zshrc" "mpv-shot0020.jpg" "ミレニアムキッズショウ(demo) [vZtcHW-4OMI].webm" "One_Piece_-_Digital_Colored_Comics/" ".dmrc" "capture at matthew's house.pcap" "todo.txt" "mpv-shot0006.jpg" "core.db" ".steampid" "mpv-shot0010.jpg" "木村カエラ ⧸ リルラリルハ　Covered by 4s4ki & Klang Ruler [3Iaw-pkSI_g].mkv" "Music/" ".dosbox/" "山下達郎 ⧸ SPARKLE ( Klang Ruler & Foods ) [I0tOY2PySDc].webm" ".xsession-errors" "荒井由実 ⧸ ひこうき雲(Klang Ruler & Foods) [u4PUffDJgxc].mp4" "mpv-shot0013.jpg" "Sousou_no_Frieren/" "mpv-shot0004.jpg" ".mozilla/" "ORIGINAL LOVE ⧸ 接吻 Covered by POLY & Klang Ruler [AXxUEq1tHM0].webm" "charlie/" ".cache/" "Takashi Kokubo (小久保隆) - Oasis Of The Wind II ～ A Story Of Forest And Water ～ (1993) [Full Album] [rWEI9y6PElo].webm" "新しい学校のリーダーズ ⧸ オトナブルー Covered by Klang Ruler [xVuXCV8Kk8o].webm" "mpv-shot0014.jpg" "mpv-shot0018.jpg" "黒歴史(demo) [72hRolD7uAs].webm" "mpv-shot0017.jpg" "Moonlight🌙 Vol.2 [UpVXqW-yeaM].webm" "飛行少女(demo) [SUmhGnucdww].webm" "mpv-shot0009.jpg" "久保田早紀 ⧸ 異邦人 Covered by Klang Ruler & ARU [QR_5rpAlxYk].webm" "mpv-shot0005.jpg" ".fonts.conf" "mpv-shot0007.jpg" ".dir_colors" "Maou-jou_de_Oyasumi/" ".pki/" ".var/" "荒井由実 ⧸ ルージュの伝言　Covered by Klang Ruler [kmV__rjkCfc].webm" "mpv-shot0019.jpg" "ラッツ&スター ⧸ 夢で逢えたら Covered by Klang Ruler & 4s4ki [qPAUKupFsSU].webm" "dead.letter" "#core.db#" "mpv-shot0012.jpg" ".python_history" "mpv-shot0015.jpg" ".ssh/" "和田アキ子 ⧸ 笑って許して　Covered by Klang Ruler & 新しい学校のリーダーズ [-KA4vrUfPXI].webm" ".bash_history" "Desktop/" ".thunderbird/" ".dontmodify/" "エスケイプ(demo) [RATsha_8bh4].webm" "trash:⁄.desktop" "フジファブリック ⧸ パッションフルーツ Covered by Klang Ruler&佐々木萌 [UrHjNVmACIU].webm" "Pictures/" ".slime-history.eld" "泰葉 ⧸ フライディ・チャイナタウン Covered by Klang Ruler & 黒川侑司(ユアネス) [LHIpnUDkP44].webm" ".renpy/" "thatonesong.txt" "log" ".gnupg/" ".xinitrc" "Public/" "mpv-shot0021.jpg" ".WATCH： Emerging Filipino Child Best Actress [WUr3MhXh8vQ].webm" ".runelite/" "mpv-shot0022.jpg" "andymori ⧸ 1984 Covered by Klang Ruler & POLY [4k-x6sBothA].webm" ".Xauthority" ".gitconfig" "mirrorlist" ".steampath" "list.txt" "Chainsaw_Man/" ".nanorc" ".yarnrc" "#%2Amail%2A#yyHfRO#" "【初音ミク】アイドル ⧸ YOASOBI 【ボカロキーボード】 [NeakkjwLwhM].webm" "Games/" "todo.txt~" ".steam/" "【CITYPOP】JAPANESE FEMALE CITYPOP 1992-93 ⧸JAPANESE BUBBLE POP ⧸ シティポップ ⧸🇯🇵 日本のシティポップ ＂𝑪𝑰𝑻𝒀 𝑷𝑶𝑷＂ [IT4vPvSbA-k].webm" ".wget-hsts" ".bash_profile" ".bashrc" "mpv-shot0016.jpg" "mpv-shot0003.jpg" "ポッピングシャワー(demo) [b_4bN9SuIBs].webm" ".bash_logout" "Take Five - Guitar Solo arr. by Chet Atkins (by Paul Desmond & Dave Brubeck) sheet music, Noten [P5XfahRRJXM].webm" "Moonlight🌙 Vol.1 [JTPthcwnEa4].webm" "Apps/" "The Problem With Online Mastering Tutorials [-wxD_w8ZdOU].webm" "【Free Your Mind】Dance Practice with Dancers!　ATARASHII GAKKO! [ZHV9eUPl370].webm" "プライスレスボーイ(demo) [rCFVB2z0Els].webm" "../" "./")
+
+ ("/home/mistekko/Projects/manga-reader/" (25885 61277 306830 909000) ".git/" "manga-reader" "todo.txt" "../" "README.md" "./" "manga-reader-elisp.el" ".gitignore")
+
+ ("/home/mistekko/Downloads/" (25885 61837 989550 823000) "[SubsPlease] Sousou no Frieren - 01 (1080p) [F02B9CEE].mkv" "f57f8a495a19203f9f8e19f957aa17a0.png" "YOASOBI - Idol.flac" "ANSI Common Lisp.pdf" "Jerma Streams - Lifeline [3segC_sw33U].webm" "Duolingo Tips - Norwegian Revised.pdf" "Rush - Discography/" "image.000001.jpg" "Early-College-Enrollment.pdf" "da418c1137d469f9edf37e867b22b01a.jpg" "dffb29ad65fecfe7878164d7bb42a763.jpg" "[ScarletNeko] Puni Puni Poemy [480p][AV1][10bit][OPUSx3][VOBSUBx3][CHAP][SP]/" "Animehk - Triple Baka.flac" "giphy-3942004324.gif" "Ch 3 Review.pdf" "task-2.6.2.tar.gz" "image.000000(2).pdf" "Compressed/" "Documents/" "[SubsPlease] Sousou no Frieren - 03 (1080p) [7EF3F175].mkv" "MBSetup.exe" "3bf2fd67e3ad7f92699b732d62ee1bb2.jpg" "91ca972aa0eea8f9af70f7d589a07997.jpg" "gcm-linux_amd64.2.3.2-symbols.tar.gz" "Videos_Digital Show and Tell - XiphWiki_files/" "Symphony No. 2 ⧸ Robert Schumann ⧸ Dowland： Lachrimae Antiquae ⧸ Klaus Mäkelä ⧸ Oslo Philharmonic [WxbfkZ_BzwU].webm" "Music/" "Project2-0.15u_eng-pc.zip" "Shoujo Shuumatsu Ryokou 29-41+Specials 1-2.7z" "Snapinsta.app_video_321204931_712765633784341_798013719537174918_n.mp4" "4552070_English.pdf" "efc6fd0c86f3e643a50e4b32f2a15f62.jpg" "image.000000(1).jpg" "d1333a5e20f96c9607a24c9fb4e719d2.png" "gbm-1.3.6(1).tar.gz" "image.000002.jpg" "azumanga-daioh-druglord.swf" "ohms-law-chart.webp" "10ad23f107fbd116cf5de9529e2e0f41.jpg" "[SubsPlease] Sousou no Frieren - 04 (1080p) [5ED46803].mkv" "idman641build18.exe" "gbm-1.3.6.tar.gz" "79451-2 - Steve Reich - Works, 1965-1995/" "image.000000.jpg" "Video/" "[SubsPlease] Sousou no Frieren - 02 (1080p) [E5A85899].mkv" "ShibayanRecords - Fall in the Dark.flac" "thing" "../" "./")
+
+ ("/home/mistekko/Projects/" (25847 48583 36299 38000) "manga-reader/" "stories/" "../" "test/" "hll2300dlpr-3.2.0-1.i386.deb" "PKGBUILD" "./" "hll2300dcupswrapper-3.2.0-1.i386.deb" "lpr.PKGBUILD" "token.txt")
+
+ ("/home/mistekko/.dontmodify/" (25883 5238 555197 721000) "aperture laboratories.jpg" "d4s7dc1-b6967c6d-d834-4cc2-98bf-23ba0f49efb7.gif" "../" "longload/" "./" "giphy-2167749346.gif" "start.bat" "start.bat~" "ap.wav" "aperture/" "LONGLOAD.gif")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
