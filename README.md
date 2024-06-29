@@ -11,3 +11,9 @@
 * some configuration files
   * mangal configs
 * a nice cursor theme
+* two lists of packages I'll install
+  * one for packages from the AUR
+  * another for packages from default repos
+* setup files fore my zsh configuration
+  * I use oh-my-zsh for syntax highlighting
+  * I have a special PS1 set in .zshrc
